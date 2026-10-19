@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Ramble",
+    "slug": "ramble",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/figma/141-2830-imgImage1.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ramble.demo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/figma/141-2830-imgImage1.png",
+        "backgroundColor": "#E6A681"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ramble.demo"
+    },
+    "web": {
+      "favicon": "./assets/figma/141-2830-imgImage1.png",
+      "name": "Ramble"
+    },
+    "plugins": ["expo-image", "expo-router"],
+    "scheme": "ramble"
+  }
+}
